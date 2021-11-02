@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stocksApp.iml" filepath="$PROJECT_DIR$/.idea/modules/stocksApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/stocksApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/stocksApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-329014077/stocksApp.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-329014077/stocksApp.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/252995007/stocksApp.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/252995007/stocksApp.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/293128184/stocksApp.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/293128184/stocksApp.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-314787036/stocksApp.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-314787036/stocksApp.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1120288159/stocksApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1120288159/stocksApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2115073977/stocksApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/2115073977/stocksApp.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/829625054/stocksApp.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/829625054/stocksApp.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

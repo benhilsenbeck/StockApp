@@ -1,0 +1,14 @@
+com/stocksapp/BuildConfig.java
+ com.stocksapp.BuildConfig
+com/stocksapp/ReactNativeFlipper.java
+ com.stocksapp.ReactNativeFlipper
+ com.stocksapp.ReactNativeFlipper$1
+ com.stocksapp.ReactNativeFlipper$2
+ com.stocksapp.ReactNativeFlipper$2$1
+com/stocksapp/MainActivity.java
+ com.stocksapp.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/stocksapp/MainApplication.java
+ com.stocksapp.MainApplication
+ com.stocksapp.MainApplication$1

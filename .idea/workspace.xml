@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d42363d-1de3-4b30-a288-ce1f788fefbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/stocksApp/screens/AddStock.js" beforeDir="false" afterPath="$PROJECT_DIR$/stocksApp/screens/AddStock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocksApp/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/stocksApp/screens/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocksApp/screens/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/stocksApp/screens/Search.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/stocksApp" />
+  </component>
+  <component name="ProjectId" id="1vPROthQfRh5q4X8F2KLc8CXJvS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stocksApp/android" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d42363d-1de3-4b30-a288-ce1f788fefbe" name="Default Changelist" comment="" />
+      <created>1626461708439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626461708439</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4280" y="725" key="#Project_Structure" timestamp="1635536558317">
+      <screen x="3840" y="631" width="1920" height="1040" />
+    </state>
+    <state x="4280" y="725" key="#Project_Structure/3840.631.1920.1040/0.0.3840.2120/-2560.455.2560.1400@3840.631.1920.1040" timestamp="1635536558317" />
+    <state x="4580" y="906" key="FileChooserDialogImpl" timestamp="1635536584199">
+      <screen x="3840" y="631" width="1920" height="1040" />
+    </state>
+    <state x="4580" y="906" key="FileChooserDialogImpl/3840.631.1920.1040/0.0.3840.2120/-2560.455.2560.1400@3840.631.1920.1040" timestamp="1635536584199" />
+  </component>
+</project>
