@@ -4,6 +4,7 @@ import axios from 'axios';
 import {SearchBar} from "react-native-elements"
 import { ifIphoneX } from 'react-native-iphone-x-helper'
 import AsyncStorage from '@react-native-async-storage/async-storage';
+const config = require('../constants/constants').config()
 
 const styles = StyleSheet.create({
     container: {
@@ -70,14 +71,14 @@ const Search = ({navigation}) => {
             try {
                 console.log("The search api was called")
                 var stockName = search
-                var config = {
+                var configuration = {
                     headers: {
                         Authorization: data2
                         ? 'JWT ' + data2
                         : null,
                     }
                 }
-                var res = await axios.post("http://192.168.0.49:8000/searchStocks", {stockName: stockName}, config)
+                var res = await axios.post(config.API_URL + "searchStocks", {stockName: stockName}, configuration)
                 setStockDescription(res.data['description'])
                 setStockTicker(res.data['symbol'])
                 setStockOpen(res.data['open'])

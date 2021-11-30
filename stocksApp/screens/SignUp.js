@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { View, Text, Button, StyleSheet, TextInput, TouchableOpacity } from "react-native";
 import axios from 'axios';
 import { useDispatch } from 'react-redux'
+const config = require('../constants/constants').config()
 
 const styles = StyleSheet.create( {
     loginLink: {
@@ -12,7 +13,7 @@ const styles = StyleSheet.create( {
 
 const SignUp = ({navigation}) => {
     const axiosInstance = axios.create({
-        baseURL: 'http://192.168.0.49:8000/',
+        baseURL: config.API_URL,
         timeout: 5000,
         headers: {
             'Content-Type': 'application/json',

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { View, TextInput, Button, StyleSheet, Text, Pressable } from "react-native";
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+const config = require('../constants/constants').config()
 
 const styles = StyleSheet.create({
     container1: {
@@ -64,14 +65,14 @@ const AddStock = ({navigation, route}) => {
     async function addedStock () {
         var data2 = await AsyncStorage.getItem('access_token')
         try {
-            var config = {
+            var configuration = {
                 headers: {
                     Authorization: data2
                     ? 'JWT ' + data2
                     : null,
                 }
             }
-            var res = await axios.post('http://192.168.0.49:8000/addStocks', {stockName: data.data2, ticker: data.data1, numberOfStocks: numberOfStocks, purchasePrice: amount}, config)
+            var res = await axios.post(config.API_URL + 'addStocks', {stockName: data.data2, ticker: data.data1, numberOfStocks: numberOfStocks, purchasePrice: amount}, configuration)
             navigation.navigate('Search')
         } catch (err) {
             console.log("There was a problem adding the stock")
